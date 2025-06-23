@@ -81,7 +81,7 @@ IF EXIST "C:\Program Files (x86)\AnyDesk" (
     CD "C:\Program Files (x86)\AnyDesk" >NUL 2>&1
     START AnyDesk.exe >NUL 2>&1
     GOTO END >NUL 2>&1
-    ) ELSE GOTO ADINF
+    ) ELSE ( GOTO ADINF )
 
 
 
@@ -91,7 +91,7 @@ IF EXIST "C:\Program Files\AnyDesk" (
     CD "C:\Program Files\AnyDesk" >NUL 2>&1
     START AnyDesk.exe >NUL 2>&1
     GOTO END >NUL 2>&1
-    ) ELSE GOTO ADINF
+    ) ELSE ( GOTO ADINF )
 
 
 
